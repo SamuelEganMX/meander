@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars from appearing during resize */
+}
+
+canvas {
+    display: block; /* Removes extra space below the canvas */
+}
+
+#menu{
+    position: fixed;
+    top: 0.5em;
+    right: 0.5em;
+    font-size: 3em;
+    display: flex;
+}
+
+.button{
+    cursor: pointer;
+}
